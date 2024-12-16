@@ -255,7 +255,18 @@ footer {
     gap: 7rem; /* Kartlar arasında boşluk bırakmak için */
     margin-top: 3rem;
 }
-
+#advisors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+#advisors-list .advisor {
+  text-align: center; /* Buton ve metinleri ortalar */
+  max-width: 150px;
+}
 @media (max-width: 768px) {
     header {
         flex-direction: column;
